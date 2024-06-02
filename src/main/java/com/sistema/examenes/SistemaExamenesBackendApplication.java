@@ -29,31 +29,31 @@ public class SistemaExamenesBackendApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-			/*try{
-				Usuario usuario = new Usuario();
-
-				usuario.setNombre("Christian");
-				usuario.setApellido("Ramirez");
-				usuario.setUsername("christian");
-				usuario.setPassword(bCryptPasswordEncoder.encode("12345"));
-				usuario.setEmail("c1@gmail.com");
-				usuario.setTelefono("988212020");
-				usuario.setPerfil("foto.png");
-
-				Rol rol = new Rol();
-				rol.setRolId(1L);
-				rol.setRolNombre("ADMIN");
-
-				Set<UsuarioRol> usuariosRoles = new HashSet<>();
-				UsuarioRol usuarioRol = new UsuarioRol();
-				usuarioRol.setRol(rol);
-				usuarioRol.setUsuario(usuario);
-				usuariosRoles.add(usuarioRol);
-
-				Usuario usuarioGuardado = usuarioService.guardarUsuario(usuario,usuariosRoles);
-				System.out.println(usuarioGuardado.getUsername());
-			}catch(UsuarioFoundException exception){
-				exception.printStackTrace();
-			}*/
+//			try{
+//				Usuario usuario = new Usuario();
+//
+//				usuario.setNombre("Eduardo");
+//				usuario.setApellido("Hernandez");
+//				usuario.setUsername("ehernandez");
+//				usuario.setPassword(bCryptPasswordEncoder.encode("123"));
+//				usuario.setEmail("edu@gmail.com");
+//				usuario.setTelefono("945635666");
+//				usuario.setPerfil("foto.png");
+//
+//				Rol rol = new Rol();
+//				rol.setRolId(1L);
+//				rol.setRolNombre("ADMIN");
+//
+//				Set<UsuarioRol> usuariosRoles = new HashSet<>();
+//				UsuarioRol usuarioRol = new UsuarioRol();
+//				usuarioRol.setRol(rol);
+//				usuarioRol.setUsuario(usuario);
+//				usuariosRoles.add(usuarioRol);
+//
+//				Usuario usuarioGuardado = usuarioService.guardarUsuario(usuario,usuariosRoles);
+//				System.out.println(usuarioGuardado.getUsername());
+//			}catch(UsuarioFoundException exception){
+//				exception.printStackTrace();
+//			}
 	}
 }
